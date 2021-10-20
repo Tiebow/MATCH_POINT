@@ -1,8 +1,8 @@
 MATCH POINT
 =====================================================
 
-Match Point is the first sport application made for woman only.
-Find the motivation to do sport by finding a sport buddy.
+Match Point is the first sport application made for women only.
+Find the motivation to do sport by finding a sport buddy and have a suggested location that suits you.
 
 --------------------------------------------------------------------------------
 🤝 Swipe to find your buddy
