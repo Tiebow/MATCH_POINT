@@ -220,7 +220,7 @@ user = User.new(username: "MP Coach",
                 email: "coach@coach.com",
                 password: "coachcoach",
                 age: 25)
-  user_photo = URI.open("https://images.unsplash.com/photo-1500468756762-a401b6f17b46?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80.jpeg")
+  user_photo = URI.open("https://source.unsplash.com/1600x900/?woman,sport,fitness")
   user.photo.attach(io: user_photo, filename: "#{user.username}_#{user.email}_photo.jpeg", content_type: 'image/jpeg')
 puts "saving #{user.username}..."
 user.save!
@@ -257,7 +257,7 @@ third_user = User.new(username: 'Cath',
                       email: 'catherine@lewagon.org',
                       password: "123456",
                       age: rand(27..30))
-user_photo = URI.open("https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1694&q=80.jpeg")
+user_photo = URI.open("https://source.unsplash.com/1600x900/?woman,sport,fitness")
 third_user.photo.attach(io: user_photo, filename: "Catherine_photo.jpeg", content_type: 'image/jpeg')
 puts "attaching photo...."
 puts "saving Catherine..."
@@ -269,7 +269,7 @@ fourth_user = User.new(username: 'Kelly',
                       email: 'Kelly@lewagon.org',
                       password: "123456",
                       age: rand(27..30))
-user_photo = URI.open("https://images.unsplash.com/photo-1465310477141-6fb93167a273?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80.jpeg")
+user_photo = URI.open("https://source.unsplash.com/1600x900/?woman,sport,fitness")
 fourth_user.photo.attach(io: user_photo, filename: "Kelly_photo.jpeg", content_type: 'image/jpeg')
 puts "attaching photo...."
 puts "saving Kelly..."
@@ -281,7 +281,7 @@ fifth_user = User.new(username: 'Paume',
                       email: 'Paume@lewagon.org',
                       password: "123456",
                       age: rand(27..30))
-user_photo = URI.open("https://images.unsplash.com/photo-1438029071396-1e831a7fa6d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2792&q=80.jpeg")
+user_photo = URI.open("https://source.unsplash.com/1600x900/?woman,sport,fitness")
 fifth_user.photo.attach(io: user_photo, filename: "Paume_photo.jpeg", content_type: 'image/jpeg')
 puts "attaching photo...."
 puts "saving Paume..."
@@ -293,7 +293,7 @@ sixth_user = User.new(username: 'Bijoux',
                       email: 'Perle@lewagon.org',
                       password: "123456",
                       age: rand(27..30))
-user_photo = URI.open("https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80.jpeg")
+user_photo = URI.open("https://source.unsplash.com/1600x900/?woman,sport,fitness")
 sixth_user.photo.attach(io: user_photo, filename: "Perle_photo.jpeg", content_type: 'image/jpeg')
 puts "attaching photo...."
 puts "saving Perle..."
@@ -305,7 +305,7 @@ seventh_user = User.new(username: 'Anne',
                       email: 'Anne@lewagon.org',
                       password: "123456",
                       age: rand(27..30))
-user_photo = URI.open("https://images.unsplash.com/photo-1610859875432-59b4c246808f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fHdvbWVuJTIwc3BvcnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60.jpeg")
+user_photo = URI.open("https://source.unsplash.com/1600x900/?woman,sport,fitness")
 seventh_user.photo.attach(io: user_photo, filename: "Anne_photo.jpeg", content_type: 'image/jpeg')
 puts "attaching photo...."
 puts "saving Anne..."
@@ -317,7 +317,7 @@ eigth_user = User.new(username: 'CriCri',
                       email: 'Christelle@lewagon.org',
                       password: "123456",
                       age: rand(27..30))
-user_photo = URI.open("https://images.unsplash.com/photo-1506984548480-17c160170c06?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1100&q=80.jpeg")
+user_photo = URI.open("https://source.unsplash.com/1600x900/?woman,sport,fitness")
 eigth_user.photo.attach(io: user_photo, filename: "Christelle_photo.jpeg", content_type: 'image/jpeg')
 puts "attaching photo...."
 puts "saving Christelle..."
@@ -329,7 +329,7 @@ ninth_user = User.new(username: 'Popo',
                       email: 'Paula@lewagon.org',
                       password: "123456",
                       age: rand(27..30))
-user_photo = URI.open("https://images.unsplash.com/photo-1542145748-bd00b11de29d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80.jpeg")
+user_photo = URI.open("https://source.unsplash.com/1600x900/?woman,sport,fitness")
 ninth_user.photo.attach(io: user_photo, filename: "Paula_photo.jpeg", content_type: 'image/jpeg')
 puts "attaching photo...."
 puts "saving Paula..."
@@ -341,7 +341,7 @@ tenth_user = User.new(username: 'Popo',
                       email: 'Christina@lewagon.org',
                       password: "123456",
                       age: rand(27..30))
-user_photo = URI.open("https://images.unsplash.com/photo-1415394171664-b29caa4dca77?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80.jpeg")
+user_photo = URI.open("https://source.unsplash.com/1600x900/?woman,sport,fitness")
 tenth_user.photo.attach(io: user_photo, filename: "Christina_photo.jpeg", content_type: 'image/jpeg')
 puts "attaching photo...."
 puts "saving Christina..."
@@ -353,7 +353,7 @@ eleventh_user = User.new(username: 'Terry',
                       email: 'Terry@lewagon.org',
                       password: "123456",
                       age: rand(27..30))
-user_photo = URI.open("https://images.unsplash.com/photo-1612962385616-a160d4a6e767?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80.jpeg")
+user_photo = URI.open("https://source.unsplash.com/1600x900/?woman,sport,fitness")
 eleventh_user.photo.attach(io: user_photo, filename: "Terry_photo.jpeg", content_type: 'image/jpeg')
 puts "attaching photo...."
 puts "saving Terry..."
@@ -365,7 +365,7 @@ twelveth_user = User.new(username: 'Delphine',
                       email: 'Delphine@lewagon.org',
                       password: "123456",
                       age: rand(27..30))
-user_photo = URI.open("https://images.unsplash.com/photo-1519088641655-a49257c008e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1334&q=80.jpeg")
+user_photo = URI.open("https://source.unsplash.com/1600x900/?woman,sport,fitness")
 twelveth_user.photo.attach(io: user_photo, filename: "Delphine_photo.jpeg", content_type: 'image/jpeg')
 puts "attaching photo...."
 puts "saving Delphine..."
@@ -377,7 +377,7 @@ thirteenth_user = User.new(username: 'Mamamia',
                       email: 'Marie@lewagon.org',
                       password: "123456",
                       age: rand(27..30))
-user_photo = URI.open("https://images.unsplash.com/photo-1623171901016-06d5e9e870e9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80.jpeg")
+user_photo = URI.open("https://source.unsplash.com/1600x900/?woman,sport,fitness")
 thirteenth_user.photo.attach(io: user_photo, filename: "Marie_photo.jpeg", content_type: 'image/jpeg')
 puts "attaching photo...."
 puts "saving Marie..."
@@ -389,7 +389,7 @@ fourteenth_user = User.new(username: 'Hortie',
                       email: 'Hortence@lewagon.org',
                       password: "123456",
                       age: rand(27..30))
-user_photo = URI.open("https://images.unsplash.com/photo-1622206509367-cb16e7f50e69?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80.jpeg")
+user_photo = URI.open("https://source.unsplash.com/1600x900/?woman,sport,fitness")
 fourteenth_user.photo.attach(io: user_photo, filename: "Hortence_photo.jpeg", content_type: 'image/jpeg')
 puts "attaching photo...."
 puts "saving Hortence..."
@@ -401,7 +401,7 @@ fifteenth_user = User.new(username: 'Lolo',
                       email: 'Laura@lewagon.org',
                       password: "123456",
                       age: rand(27..30))
-user_photo = URI.open("https://images.unsplash.com/photo-1622206509367-cb16e7f50e69?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80.jpeg")
+user_photo = URI.open("https://source.unsplash.com/1600x900/?woman,sport,fitness")
 fifteenth_user.photo.attach(io: user_photo, filename: "Laura_photo.jpeg", content_type: 'image/jpeg')
 puts "attaching photo...."
 puts "saving Laura..."
@@ -413,7 +413,7 @@ sixteenth_user = User.new(username: 'Rania',
                       email: 'Rania@lewagon.org',
                       password: "123456",
                       age: rand(27..30))
-user_photo = URI.open("https://images.unsplash.com/photo-1501450753566-4977b58843ef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80.jpeg")
+user_photo = URI.open("https://source.unsplash.com/1600x900/?woman,sport,fitness")
 sixteenth_user.photo.attach(io: user_photo, filename: "Rania_photo.jpeg", content_type: 'image/jpeg')
 puts "attaching photo...."
 puts "saving Rania..."
@@ -424,7 +424,7 @@ seventeenth_user = User.new(username: 'Stella',
                       email: 'Stella@lewagon.org',
                       password: "123456",
                       age: rand(27..30))
-user_photo = URI.open("https://images.unsplash.com/photo-1501554728187-ce583db33af7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80.jpeg")
+user_photo = URI.open("https://source.unsplash.com/1600x900/?woman,sport,fitness")
 seventeenth_user.photo.attach(io: user_photo, filename: "Stella_photo.jpeg", content_type: 'image/jpeg')
 puts "attaching photo...."
 puts "saving Stella..."
@@ -435,7 +435,7 @@ eighteenth_user = User.new(username: 'Camille',
                       email: 'Camille@lewagon.org',
                       password: "123456",
                       age: rand(27..30))
-user_photo = URI.open("https://images.unsplash.com/photo-1590260712186-ff1891e5876e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80.jpeg")
+user_photo = URI.open("https://source.unsplash.com/1600x900/?woman,sport,fitness")
 eighteenth_user.photo.attach(io: user_photo, filename: "Camille_photo.jpeg", content_type: 'image/jpeg')
 puts "attaching photo...."
 puts "saving Camille..."
@@ -446,7 +446,7 @@ nineteenth_user = User.new(username: 'Maud',
                       email: 'Maud@lewagon.org',
                       password: "123456",
                       age: rand(27..30))
-user_photo = URI.open("https://images.unsplash.com/photo-1526096478311-ff9cf8d38693?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80.jpeg")
+user_photo = URI.open("https://source.unsplash.com/1600x900/?woman,sport,fitness")
 nineteenth_user.photo.attach(io: user_photo, filename: "Maud_photo.jpeg", content_type: 'image/jpeg')
 puts "attaching photo...."
 puts "saving Maud..."

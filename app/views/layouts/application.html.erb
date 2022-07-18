@@ -34,7 +34,10 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_pack_tag 'application' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
-    <%= favicon_link_tag asset_path('icon.png') %>  </head>
+    <%= favicon_link_tag asset_path('icon.png') %>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css" rel="stylesheet">
+    <the-script src="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js"></the-script>
+    </head>
   <body>
     <% if controller_name == "wishes" && action_name == "index" %>
       <%= render "shared/dropdown" %>

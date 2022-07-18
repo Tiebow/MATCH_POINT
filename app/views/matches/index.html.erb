@@ -18,7 +18,7 @@
       <div class="card-other-matches">
         <%= cl_image_tag like.wish.user.photo.key, class: 'img-index ml-2' %>
         <div class="card-other-matches-infos">
-          <li><p><%= like.wish.user.username %>, <%= like.wish.user.age %> years old</p></li>
+          <li><p><%= like.wish.user.username %>, <%= like.wish.user&.age %> years old</p></li>
           <li class="tag wish-tag" style="color: #8d2929"><%= like.wish.sport.name %></li>
         </div>
       </div>
